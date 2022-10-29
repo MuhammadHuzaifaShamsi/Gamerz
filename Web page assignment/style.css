@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+}
+nav h2{
+    font-size: 2.5rem;
+    margin: 3px;
+    margin-left: 4rem;
+}
+nav ul{
+    margin-top: 10px;
+    margin-left: 20rem;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+nav li:hover{
+    color: blue;
+}
+
+
+
+.showcase{
+    padding: 5rem;
+    background-image: url("img/showcase-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.showcase .show-head{
+    max-width: 35rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: white;
+    margin-top: 8rem;
+    margin-left: 3rem;
+}
+
+
+.all-cards{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3rem;
+}
+.cards{
+    width: 80%;
+    border-left: 5px solid black;
+}
+.cards img{
+    width: 100%;
+}
+.cards h2{
+    padding: 2px;
+    font-size: 2rem;
+}
+.cards p{
+    font-size: 1.1rem;
+    padding: 4px;
+    text-align: justify;
+}
+.cards button{
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.cards button:hover{
+    background-color: gray;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+footer .links li{
+    list-style: none;
+    padding: 0.2rem;
+    font-size: 1.1rem;
+}
+footer .links li:hover{
+    padding-left: 8px;
+}
+footer .social i{
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    padding: 4px;
+}
+footer .social i:hover{
+    color: blue;
+}
+footer .copy{
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
+    line-height: 30px;
+}
+
+
+
+.button{
+    padding: 5rem;
+}
+.button h2{
+    font-size: 1.5rem;
+}
+.button p{
+    font-size: 1.2rem;
+    padding: 2rem;
+    text-align: justify;
+}
+.page{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
